@@ -1,0 +1,739 @@
+
+#header {
+    background-color: #f5a623;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0;
+    margin-bottom: 20px;
+}
+
+#header #logo {
+    position: absolute;
+    top: 4px;
+    left: 30px;
+    width: 2cm;
+    height: 2cm;
+}
+
+.createtop {
+    position: absolute;
+    right: 20px; 
+    background-color:#00FF00 ; 
+    color: white;
+    padding: 5px 10px; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.createtop:hover{
+    background-color: black;
+}
+
+#section {
+    background-color: #0bcdb0;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+#topic-box {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #f5a623;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#topic-box #view-notes {
+    background-color: #4169e1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#topic-box #grant-access {
+    background-color: #00ff00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5cm; /* Adjusted to bring content higher */
+}
+
+#form-box {
+    display: inline-block;
+    border: 5px solid #FFA500;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    background-color: rgba(250, 235, 215, 0);
+    border-radius: 20px;
+}
+
+#form-box label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#form-box .submit-container {
+    text-align: center;
+}
+
+#form-box input[type="submit"] {
+    background-color: #00FF00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#form-box input[type="submit"] {
+    background-color: #00CC00;
+}
+
+
+*/ Home Page and Create Topic Ends Here 
+
+#Top {
+   
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+.create_acc_box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+#create_acc {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="file"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #4cae4c;
+}
+
+.container-access{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.Title-info-access{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topic-access{
+    display: flex;
+    flex-wrap: column;
+    gap:20px;
+}
+
+
+*/ Signup Page Ends here*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Georgia, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.ABC {
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 231, 223);
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 800px;
+    
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.Brand_logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brand_logo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.login-container {
+    flex: 1;
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #1877f2;
+    outline: none;
+}
+.login-container button {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-container .login-button {
+    background-color: #1877f2;
+    color: #fff;
+}
+.login-container .login-button:hover {
+    background-color: #165ec9;
+}
+.login-container .create-account-button {
+    background-color: #42b72a;
+    color: #fff;
+}
+.login-container .create-account-button:hover {
+    background-color: #36a420;
+}
+.login-container hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+*/Login Page Ends here*/
+
+
+
+
+
+
+
+/* rajan */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.box{
+    background-color: #f5ae50;                   
+
+    grid-column: 1/4;
+    grid-row: 1/3;
+
+    grid-template-columns: 1fr  1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+.box img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+h1{
+    max-width: 90%;
+    word-wrap: break-word;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+.logo-div{ 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+.userimage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 35px;
+
+}
+.topic{
+    background-color: antiquewhite;
+    margin-top: 1px 2px;
+    /* margin-left: 2px; */
+    /* margin-right: 2px; */
+    border-style: solid;
+    /* margin-bottom: 20px; */
+
+    max-height: 500px;
+    overflow-y: auto;
+
+}
+.topic2{
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    margin-bottom: 1px;
+}
+.discription {
+    margin-left: 2px;
+    margin-right: 3px;
+    margin-top: 5px;
+    border: 2px solid green;
+    max-width: 800px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.box{
+    margin-top: 2px;
+    margin-left: 2px;
+    border-style: solid;
+    color: green;
+}
+.otheruser{
+    display: flex;
+    margin-bottom: 1px;
+
+
+    
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        display: flex;
+    
+}
+.userlogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.username{
+    align-items: center;
+    padding-left:20px;
+    padding-right: 40px;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pro-info{
+    display: flex;
+    flex-direction:column;
+
+}
+.creation-date{
+    font-size: 13px;
+    margin: 5px 0 0 0;
+}
+.submit-button{
+    margin-top: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.previous-button{
+    text-align: center;
+}
+button{ 
+        padding: 5px 5px;
+        margin-top: 3px;
+        background-color: #004F2E;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.Title-info{
+    /* background-color: bisque; */
+    margin-bottom: 1px;
+    height: 100vh;
+
+    /* border-style: 1px solid; */
+}
+ /* page2 */
+
+.header2, footer{
+    background-color:#f5ae50;
+    border: 2px solid green;
+    align-items: center;
+
+    /* margin-top: 20px; */
+    position: relative; 
+    bottom: 0;
+    left: 0; 
+    
+    
+    color: #080210;
+    text-align: center;
+
+
+} 
+footer{
+    margin-top: 6cm ;
+    padding: 10px;
+} 
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    /* margin: 0 5px; */
+    font-weight: bold;
+    transition: color 0.3s;      /* Adjust spacing between links if needed */
+} 
+
+footer a:hover {
+    color: #e5950a;
+}
+
+footer img {
+    vertical-align: middle;  /* Ensures images align nicely with text */
+} 
+
+.foo{
+    margin: 3px;
+}
+
+
+
+
+
+.ucard{
+    display: flex;
+    /* align-items: center; */
+    width: 50%; 
+
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 2px;
+    padding: 10px;
+    border: 2px solid #0b0202;
+    border-radius: 5px;
+    background-color: rgb(206, 121, 10);
+   
+
+}
+.userdetails{
+    display: flex;
+    align-items: center;
+    
+}
+.mainaccessbtn{
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+   
+
+
+ /* CSS for valid and invalid inputs */ 
+
+ .form-user input{
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+ }
+
+.form-user input.error{
+    border-color: red;
+
+}
+
+.form-user input.valid {
+    border-color: green;
+}
+
+.error-message{
+    color: red;
+    font-size: 0.8em;
+    margin-top: 7px;
+}
+
+
+#topicContainer{
+    margin-top: 5px;
+    background-color:#efae36 ;
+    border: 2px solid black;
+    height: auto;   
+    overflow: visible;
+
+}
+
+.limit-Mes{
+    color: red;
+    display: none;
+}
+
+.note-Form{
+    display: none;
+}
+
+.footer_b{
+    margin-top: 2cm;
+}
+.username{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+.footer_c{
+    margin-top: 9cm;
+    padding: 5px;
+}
+
+.access_to_all{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 30px 10px 0; /* Top, Right, Bottom, Left spacing */
+}
+
+.access_all_button{
+    padding: 10px 16px;
+    background-color: #004d1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.access_all_button:hover {
+    background-color: #007d2c;
+}
+
+
+
+
+.note-entry {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f8ff; /* soft blue */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.user-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+#existingNotes {
+    margin-top: 10px;
+}
+
+
+.header-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons a:hover {
+    background-color: #555;
+}
+.btn-create-topic {
+    background-color: #2563eb; /* Tailwind Blue-600 */
+    color: white;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-create-topic:hover {
+    background-color: #1d4ed8; /* Tailwind Blue-700 */
+    transform: translateY(-1px);
+}
+
+.btn-create-topic:active {
+    background-color: #1e40af; /* Tailwind Blue-800 */
+    transform: scale(0.98);
+}
