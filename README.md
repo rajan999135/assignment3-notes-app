@@ -14,7 +14,7 @@ A simple note-taking web app built using PHP, MySQL, HTML, CSS, and JavaScript.
 
 The project includes a SQL database backup:
 
-- 📄 [`notes_app_schema.sql`](notes_app_schema.sql)
+-📄 [Download the database backup](ASSIGNMENT3/rnb056_backup.sql)
 
 You can import this file into your MySQL server using phpMyAdmin or MySQL CLI.
 
