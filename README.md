@@ -47,11 +47,20 @@ assignment3-notes-app/
    git clone https://github.com/rajan999135/assignment3-notes-app.git
    ```
 
-2. Import `notes_app.sql` into your local MySQL database
+2. ## 📦 Database file 
 
-3. Configure `db_config.php` with your DB credentials
+A full MySQL backup of this project is available here: [`Database/notes_app.sql`](./Database/notes_app.sql)
 
-4. Launch on local server (e.g., MAMP/XAMPP)
+To use this:
+1. Open **phpMyAdmin** or any MySQL tool.
+2. Create a new database (e.g., `notes_db`).
+3. Import the `notes_app.sql` file into your database.
+4. Update your `.env` or `db_connection.php` file with the correct database name and credentials.
+
+This file contains all necessary tables like `notes`, `topics`, `users_info`, `access_control`, etc., as used in the live version of this app hosted on InfinityFree.
+
+
+3. Launch on local server (e.g., MAMP/XAMPP)
 
 💡 Purpose
 This project was developed as part of the CS 215: Web & Database Programming course at the University of Regina.
