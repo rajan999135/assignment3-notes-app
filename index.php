@@ -7,8 +7,8 @@ if (!isset($_SESSION['user_id'])) {
 $current_user_id = $_SESSION['user_id'];
 
 $dsn = "mysql:host=sql202.infinityfree.com;dbname=if0_39396420_notes_db";
-$username = "if0_39396420";
-$password = "phHzpwzBO45Gi";
+$username = "";
+$password = "";
 
 try {
     $conn = new PDO($dsn, $username, $password, [
