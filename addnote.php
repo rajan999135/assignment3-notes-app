@@ -15,8 +15,8 @@ if (!$note || !$topic_id || !$user_id) {
 
 try {
     $dsn = "mysql:host=sql202.infinityfree.com;dbname=if0_39396420_notes_db";
-    $username = "if0_39396420";
-    $password = "phHzpwzBO45Gi";
+    $username = "";
+    $password = "";
     $pdo = new PDO($dsn, $username, $password, [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ]);
